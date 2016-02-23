@@ -1,220 +1,263 @@
 var listOfSites = {
   "cities": [
     {
-      "cname": "Arlington",
-      "lat": "42.4153",
-      "lng": "-71.1569",
-      "monday": "2",
-      "tuesday": "3"
+      "cname": "Allston",
+      "lat": "42.3495",
+      "lng": "-71.1298",
+      "monday": "1",
+      "tuesday": "0",
     },
     {
-      "cname": "Beverly",
-      "lat": "42.5580",
-      "lng": "-70.8800",
+      "cname": "Arlington - Norman",
+      "lat": "42.4180",
+      "lng": "-71.1580",
       "monday": "0",
       "tuesday": "1"
     },
     {
-      "cname": "Boston",
-      "lat": "42.3581",
-      "lng": "-71.0636",
+      "cname": "Arlington",
+      "lat": "42.4168",
+      "lng": "-71.1542",
+      "monday": "1",
+      "tuesday": "1"
+    },
+    {
+      "cname": "Beverly",
+      "lat": "42.5588",
+      "lng": "-70.8873",
       "monday": "0",
-      "tuesday": "3"
+      "tuesday": "1"
+    },
+    {
+      "cname": "Boston - TMC",
+      "lat": "42.3497",
+      "lng": "-71.0631",
+      "monday": "0",
+      "tuesday": "1"
     },
     {
       "cname": "Bourne",
-      "lat": "41.7411",
-      "lng": "-70.5994",
+      "lat": "41.7410",
+      "lng": "-70.5980",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Braintree",
-      "lat": "42.2060",
-      "lng": "-71.0050",
+      "lat": "42.2070",
+      "lng": "-71.0242",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Brighton",
-      "lat": "42.3500",
-      "lng": "-71.1600",
+      "lat": "42.3491",
+      "lng": "-71.1426",
       "monday": "0",
       "tuesday": "1"
     },
     {
       "cname": "Brockton",
-      "lat": "42.0833",
-      "lng": "-71.0189",
+      "lat": "42.0580",
+      "lng": "-71.0621",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Brookline",
-      "lat": "42.3317",
-      "lng": "-71.1217",
+      "lat": "42.3432",
+      "lng": "-71.1166",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Burlington",
-      "lat": "42.5047",
-      "lng": "-71.1961",
+      "lat": "42.4847",
+      "lng": "-71.2049",
       "monday": "2",
       "tuesday": "1"
     },
     {
+      "cname": "Charlestwon",
+      "lat": "42.3776",
+      "lng": "-71.0569",
+      "monday": "0",
+      "tuesday": "1"
+    },
+    {
       "cname": "Charlton",
-      "lat": "42.1341",
-      "lng": "-71.9690",
+      "lat": "42.1452",
+      "lng": "-71.9695",
       "monday": "0",
       "tuesday": "1"
     },
     {
       "cname": "Danvers",
-      "lat": "42.5750",
-      "lng": "-70.9306",
+      "lat": "42.5486",
+      "lng": "-70.9327",
       "monday": "1",
-      "tuesday": "1"
+      "tuesday": "0"
     },
     {
       "cname": "Dedham",
-      "lat": "42.2417",
-      "lng": "-71.1667",
+      "lat": "42.2267",
+      "lng": "-71.1777",
       "monday": "0",
       "tuesday": "1"
     },
     {
       "cname": "Derry, NH",
-      "lat": "42.8806",
-      "lng": "-71.3272",
+      "lat": "42.8976",
+      "lng": "-71.3241",
       "monday": "0",
       "tuesday": "1"
     },
     {
       "cname": "Framingham",
-      "lat": "42.2792",
-      "lng": "-71.4167",
+      "lat": "42.2878",
+      "lng": "-71.4238",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Holbrook",
-      "lat": "42.1550",
-      "lng": "-71.0092",
+      "lat": "42.1585",
+      "lng": "-71.0064",
       "monday": "0",
       "tuesday": "1"
     },
     {
-      "cname": "Ipswich",
-      "lat": "42.6792",
-      "lng": "-70.8417",
+      "cname": "Lakeville",
+      "lat": "41.8463",
+      "lng": "-70.9524",
+      "monday": "0",
+      "tuesday": "1"
+    },
+    {
+      "cname": "Marblehead",
+      "lat": "42.4663",
+      "lng": "-70.9436",
       "monday": "1",
       "tuesday": "0"
     },
     {
-      "cname": "Lakeville",
-      "lat": "41.8458",
-      "lng": "-70.9500",
-      "monday": "0",
-      "tuesday": "1"
-    },
-    {
       "cname": "Malden",
-      "lat": "42.428549",
-      "lng": "-71.060597",
+      "lat": "42.4296",
+      "lng": "-71.0870",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Manchester",
-      "lat": "42.5778",
-      "lng": "-70.7694",
+      "lat": "42.5931",
+      "lng": "-70.7637",
       "monday": "1",
       "tuesday": "0"
     },
-    {
-      "cname": "Marblehead",
-      "lat": "42.5000",
-      "lng": "-70.8583",
-      "monday": "1",
-      "tuesday": "0"
-    },
+
     {
       "cname": "Medford",
-      "lat": "42.4183",
-      "lng": "-71.1067",
+      "lat": "42.4188",
+      "lng": "-71.1128",
       "monday": "1",
-      "tuesday": "1"
+      "tuesday": "0"
     },
     {
       "cname": "Middleton",
-      "lat": "42.5950",
-      "lng": "-71.0167",
+      "lat": "42.5841",
+      "lng": "-71.0093",
       "monday": "1",
       "tuesday": "0"
     },
     {
-      "cname": "Needham",
-      "lat": "42.2833",
-      "lng": "-71.2333",
+      "cname": "Needham - London",
+      "lat": "42.2773",
+      "lng": "-71.2386",
       "monday": "1",
-      "tuesday": "2"
+      "tuesday": "0"
+    },
+    {
+      "cname": "Needham - Perez-Lirio",
+      "lat": "42.2909",
+      "lng": "-71.2373",
+      "monday": "0",
+      "tuesday": "1"
+    },
+    {
+      "cname": "Needham - Frank",
+      "lat": "42.2752",
+      "lng": "-71.2374",
+      "monday": "0",
+      "tuesday": "1"
     },
     {
       "cname": "North Falmouth",
-      "lat": "41.6447",
-      "lng": "-70.6306",
+      "lat": "41.6410",
+      "lng": "-70.6124",
       "monday": "0",
       "tuesday": "1"
     },
     {
       "cname": "Pembroke",
-      "lat": "42.0667",
-      "lng": "-70.8167",
+      "lat": "42.1078",
+      "lng": "-70.7631",
       "monday": "1",
       "tuesday": "0"
     },
     {
       "cname": "Randolph",
-      "lat": "42.1625",
-      "lng": "-71.0417",
+      "lat": "42.1928",
+      "lng": "-71.0593",
       "monday": "0",
       "tuesday": "1"
     },
     {
-      "cname": "Somerville",
-      "lat": "42.3875",
-      "lng": "-71.1000",
+      "cname": "Revere",
+      "lat": "42.4185",
+      "lng": "-70.9945",
       "monday": "1",
       "tuesday": "0"
     },
     {
-      "cname": "South Hamilton",
-      "lat": "42.6197",
-      "lng": "-70.8548",
+      "cname": "Somerville",
+      "lat": "42.3976",
+      "lng": "-71.1236",
+      "monday": "1",
+      "tuesday": "0"
+    },
+    {
+      "cname": "Sudbury",
+      "lat": "42.3610",
+      "lng": "-71.4288",
+      "monday": "1",
+      "tuesday": "0"
+    },
+    {
+      "cname": "Swampscott",
+      "lat": "42.4766",
+      "lng": "-70.9126",
+      "monday": "1",
+      "tuesday": "0"
+    },
+    {
+      "cname": "Tewksbury - Lewis",
+      "lat": "42.6313",
+      "lng": "-71.2702",
+      "monday": "1",
+      "tuesday": "0"
+    },
+    {
+      "cname": "Tewksbury - Ragucci",
+      "lat": "42.5982",
+      "lng": "-71.2181",
       "monday": "0",
       "tuesday": "1"
     },
     {
-      "cname": "Swampscott",
-      "lat": "42.4708",
-      "lng": "-70.9181",
-      "monday": "1",
-      "tuesday": "1"
-    },
-    {
-      "cname": "Tewksbury",
-      "lat": "42.6106",
-      "lng": "-71.2347",
-      "monday": "1",
-      "tuesday": "1"
-    },
-    {
       "cname": "Walpole",
-      "lat": "42.1417",
-      "lng": "-71.2500",
-      "monday": "2",
+      "lat": "42.1372",
+      "lng": "-71.2656",
+      "monday": "1",
       "tuesday": "0"
     },
     {
@@ -226,10 +269,17 @@ var listOfSites = {
     },
     {
       "cname": "Wellesley",
-      "lat": "42.2964",
-      "lng": "-71.2931",
-      "monday": "1",
-      "tuesday": "3"
+      "lat": "42.3168",
+      "lng": "-71.2442",
+      "monday": "0",
+      "tuesday": "2"
+    },
+    {
+      "cname": "Wellesley - Finn",
+      "lat": "42.3249",
+      "lng": "-71.2537",
+      "monday": "0",
+      "tuesday": "1"
     }
   ]
 };
